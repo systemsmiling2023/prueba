@@ -28,7 +28,7 @@
             <div class="col-md-4">
                 <div class="card text-center bg-dark">
                     <div class="card-header bg-warning">
-                        David
+                        David Hernandez
                     </div>
                     <div class="card-body bg-secondary">
                         <h5 class="card-title">Sobre mi ...</h5>
@@ -36,7 +36,7 @@
                         <a href="#" class="btn btn-primary">Like</a>
                     </div>
                     <div class="card-footer text-muted">
-                        01/Abr/23 17:07
+                        01/Abr/23 17:12
                     </div>
                 </div>
             </div>
