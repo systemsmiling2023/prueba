@@ -30,6 +30,11 @@
                     <div class="card-header bg-warning">
                         David Hernandez
                     </div>
+                    <!-- Input -->
+                    <input type="text" id="txtEntrada" class="form-control text-center" placeholder="________-_">
+                    <input type="text" id="txtEntrada2" class="form-control text-center">
+
+                    <!-- Cuerpo de tarjeta -->
                     <div class="card-body bg-secondary">
                         <h5 class="card-title">Sobre mi ...</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, neque saepe. Commodi, vero dolores assumenda expedita doloremque illum debitis saepe iusto, sit unde reprehenderit. Numquam architecto soluta illo temporibus repellat!</p>
@@ -48,6 +53,11 @@
 
     <script src="libs/jquery.js"></script>
     <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="libs/maskinput.js"></script>
+    <script>
+        $('#txtEntrada').mask('99999999-9');
+        $('#txtEntrada2').mask('9999-999999-999-9');
+    </script>
 </body>
 
 </html>
