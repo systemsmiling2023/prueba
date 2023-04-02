@@ -12,6 +12,7 @@
 </head>
 
 <body class="bg-dark">
+    <?php include('navbar.php'); ?>
     <div class="container">
 
         <div class="row-fluid text-white">
@@ -24,7 +25,7 @@
         </div>
 
 
-        <div class="row-fluid">
+        <div class="row">
 
             <!-- Espacio para David -->
             <div class="col-md-4">
@@ -51,57 +52,59 @@
             </div>
             <!-- Fin espacio para David -->
 
-            
-            <!-- Espacio para David -->
+
+            <!-- Espacio para Carlos -->
             <div class="col-md-4">
                 <div class="card text-center bg-dark">
                     <div class="card-header bg-warning">
                         Carlos Tamayo
-                        <!-- Input -->
-                        <input type="text" id="txtEntrada" class="form-control text-center" placeholder="________-_">
-                        <input type="text" id="txtEntrada2" class="form-control text-center">
+                    </div>
+                    <!-- Input -->
+                    <input type="text" id="txtEntrada" class="form-control text-center" placeholder="________-_">
+                    <input type="text" id="txtEntrada2" class="form-control text-center">
 
-                        <!-- Cuerpo de tarjeta -->
-                        <div class="card-body bg-secondary">
-                            <h5 class="card-title">Sobre mi ...</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, neque
-                                saepe.
-                                Commodi, vero dolores assumenda expedita doloremque illum debitis saepe iusto, sit unde
-                                reprehenderit. Numquam architecto soluta illo temporibus repellat!</p>
-                            <a href="#" class="btn btn-primary">Like</a>
-                        </div>
-                        <div class="card-footer text-muted">
-                            07/04/74
-                        </div>
+                    <!-- Cuerpo de tarjeta -->
+                    <div class="card-body bg-secondary">
+                        <h5 class="card-title">Sobre mi ...</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, neque
+                            saepe.
+                            Commodi, vero dolores assumenda expedita doloremque illum debitis saepe iusto, sit unde
+                            reprehenderit. Numquam architecto soluta illo temporibus repellat!</p>
+                        <a href="#" class="btn btn-primary">Like</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        07/04/74
                     </div>
                 </div>
-                <!-- Fin espacio para Carlos Tamayo -->
+            </div>
+            <!-- Fin espacio para Carlos Tamayo -->
 
             <!-- Espacio para Lupe -->
             <div class="col-md-4">
                 <div class="card text-center bg-dark">
                     <div class="card-header bg-warning">
                         Edith Rodriguez
-                        <!-- Input -->
+                    </div>
+                    <!-- Input -->
 
-                        <!-- Cuerpo de tarjeta -->
-                        <div class="card-body bg-secondary">
-                            <h5 class="card-title">Sobre mi ...</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, neque
-                                saepe.
-                                Commodi, vero dolores assumenda expedita doloremque illum debitis saepe iusto, sit unde
-                                reprehenderit. Numquam architecto soluta illo temporibus repellat!</p>
-                            <a href="#" class="btn btn-primary">Like</a>
-                        </div>
-                        <div class="card-footer text-muted">
-                            07/04/74
-                        </div>
+                    <!-- Cuerpo de tarjeta -->
+                    <div class="card-body bg-secondary">
+                        <h5 class="card-title">Sobre mi ...</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, neque
+                            saepe.
+                            Commodi, vero dolores assumenda expedita doloremque illum debitis saepe iusto, sit unde
+                            reprehenderit. Numquam architecto soluta illo temporibus repellat!</p>
+                        <a href="#" class="btn btn-primary">Like</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        07/04/74
                     </div>
                 </div>
-                <!-- Fin espacio para Lupe -->
-
             </div>
+            <!-- Fin espacio para Lupe -->
+
         </div>
+    </div>
 
 
     <script src="libs/jquery.js"></script>

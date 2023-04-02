@@ -12,6 +12,7 @@
 </head>
 
 <body class="bg-dark">
+    <?php include('navbar.php'); ?>
     <div class="container">
 
         <div class="row-fluid text-white">
@@ -32,8 +33,8 @@
     <script src="libs/bootstrap/js/bootstrap.min.js"></script>
     <script src="libs/maskinput.js"></script>
     <script>
-    $('#txtEntrada').mask('99999999-9');
-    $('#txtEntrada2').mask('9999-999999-999-9');
+        $('#txtEntrada').mask('99999999-9');
+        $('#txtEntrada2').mask('9999-999999-999-9');
     </script>
 </body>
 
